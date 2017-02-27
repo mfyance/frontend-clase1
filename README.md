@@ -1,4 +1,4 @@
-# FRONTEND- CLASE 1
+# CLASE 1 {FRONTEND JUNIOR}
 En esta **1ra Clase**, vamos a explorar algunos conocimientos básicos para codificar nuestra primera página web con etiquetas html y selectores css.
 
 ## Exploración
@@ -9,7 +9,7 @@ En esta **1ra Clase**, vamos a explorar algunos conocimientos básicos para codi
 **Aplicación**    | Creación de una página Html5
 
 ## Creación
-### <i class="icon-folder-open"></i> Pasos para Clonar Esqueleto Web
+### <i class="icon-folder-open"></i> {Pasos para Clonar Esqueleto Web}
 1. Crear una carpeta en la Unidad D, que sea especialmente para tener los trabajos a desarrollar.
 2. Instalar [Git](https://git-scm.com/download/win) en el Computador
 3. Clonar el archivo con el siguiente comando: 
@@ -19,9 +19,9 @@ git clone https://github.com/mfyance/frontend-junior.git
 > **Nota:**
 > Es necesario contar con una consola de trabajo ( Bash, Vim, ConEmu )
 
-### <i class="icon-folder-open"></i> Pasos para Iniciar Maquetación de un Prototipo
-1. Agregar la carpeta clonada, al Editor de Código Fuentes de su preferencia { [Sublime](https://www.sublimetext.com/3), [NotePad++](https://notepad-plus-plus.org/) }
+### <i class="icon-folder-open"></i> {Pasos para Iniciar Maquetación de un Prototipo}
+1. Agregar la carpeta clonada, al Editor de Código Fuente de su preferencia ( [Sublime](https://www.sublimetext.com/3), [NotePad++](https://notepad-plus-plus.org/) )
 2. Abrir los archivos index.html y styles.css.
-3. Abrir [Imágen de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
+3. Abrir [Prototipo de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
 4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos .css
 
