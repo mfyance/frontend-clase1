@@ -25,16 +25,3 @@ git clone https://github.com/mfyance/frontend-junior.git
 3. Abrir [Imágen de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
 4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos .css
 
-
-
-# FRONTEND- CLASE 2
-En esta **2da Clase**, vamos a explorar algunos conocimientos básicos para codificar nuestra primera página web con etiquetas html y selectores css.
-
-## Exploración
-<a name="todas_las_tareas"></a>Actividad | Descripción
----------------- | ---
-**HTML**   | Introducción al Html y las etiquetas básicas ( html, head, body, img, ul, header, footer )
-**CSS**    | Introducción al CSS. Conocer selectores bàsicos ( Id, Clases )
-**Aplicación**    | Creación de una página Html5
-
-## Creación
