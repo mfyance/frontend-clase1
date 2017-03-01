@@ -1,5 +1,5 @@
-# CLASE 1 {FRONTEND JUNIOR}
-En esta **1ra Clase**, vamos a explorar algunos conocimientos básicos para codificar nuestra primera página web con etiquetas html y selectores css.
+# CLASE FRONTEND JUNIOR
+Vamos a explorar algunos conocimientos básicos para codificar nuestra primera página web con etiquetas html y selectores css.
 
 ## Exploración
 <a name="todas_las_tareas"></a>Actividad | Descripción
@@ -25,3 +25,6 @@ git clone https://github.com/mfyance/frontend-junior.git
 3. Abrir [Prototipo de ejemplo](https://drive.google.com/file/d/0Bxx13yDV_gjFX3JweUNReWdtbU0/view?usp=sharing)
 4. Iniciar la maquetación, aplicando las etiquetas básicas de Html y los selectores de estilo para los archivos .css
 
+### <i class="icon-folder-open"></i> Archivos Relacionados
+1. [temario](https://docs.google.com/a/identired.com/spreadsheets/d/1hES_VsLcATG61ck7eHY49ljmGCOUy90Z_bS1FDj3d30/edit?usp=sharing)
+2. [presentación](https://www.canva.com/design/DACOXrINg2U/1_XFtZ8696JykEUIRAX2JQ/view?utm_content=DACOXrINg2U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
