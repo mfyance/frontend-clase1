@@ -8,6 +8,10 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Box Sizing</title>
 	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
+
+	<link rel="stylesheet" href="framework/css/myreset.css">
+
+
 	<style>
 		/** {
 		    box-sizing: border-box;
@@ -15,42 +19,37 @@
 		    -webkit-box-sizing: border-box;
 		}*/
 		.div1 {
-		    width: 300px;
-		    height: 100px;
+		    width: 400px;
+		    height: 400px;
 		    border: 1px solid blue;
+		}
+		.div1:before{
+			content: 'inicio';
+			color: red
+		}
+		.div1:after{
+			content: '..';
+			color: blue
 		}
 
 		.div2 {
-		    width: 300px;
-		    height: 100px;    
-		    padding: 50px;
+		    width: 400px;
+		    height: 400px;    
 		    border: 1px solid red;
+		    padding: 20px;
 		}
 
-		.div3 {
-		    width: 300px;
-		    height: 100px;
-		    border: 1px solid blue;
-		    box-sizing: border-box;
-		}
-
-		.div4 {
-		    width: 300px;
-		    height: 100px;    
-		    padding: 50px;
-		    border: 1px solid red;
-		    box-sizing: border-box;
-		}
+		
 	</style>
 </head>
 <body>
-	<div class="div1">Caja Pequeña (width = 300px y height = 100px).</div>
+	<div class="div1">Caja Pequeña (width = 300px y height = 100px)</div>
+	<div class="div1">Caja Pequeña (width = 300px y height = 100px)</div>
+	<div class="div1">Caja Pequeña (width = 300px y height = 100px)</div>
+	<div class="div1">Caja Pequeña (width = 300px y height = 100px)</div>
+	<div class="div1">Caja Pequeña (width = 300px y height = 100px)</div>
+	<div class="div1">Caja Pequeña (width = 300px y height = 100px)</div>
 	<br>
-	<div class="div2">Caja Pequeña (width = 300px y height = 100px).</div>
-
-	<h2>With box-sizing</h2>
-	<div class="div3">Both divs are the same size now!</div>
-	<br>
-	<div class="div4">Hooray!</div>
+	<div class="div2">Hooray</div>
 </body>
 </html>
