@@ -1,20 +1,34 @@
+.everis-body{
+	font-family: Roboto;
+}
+
 .table{
 	border: 1px solid #000;
+	width: 50%;
+	margin: 40px auto;
+	
+	
 }
 
 .table-thead{
 	border-bottom: 1px solid #000;
+	font-weight: bolder;
 }
 .table-thead-th,
 .table-tbody-td{
-	padding: 5px;
+	padding: 10px;
+}
+.table-tbody-td{
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	/* font-family: arial */
 }
 .table-thead-th{
 	background: #ccc;
 	color: black;
 	text-align: left;
 	border-right: 1px solid #000;
-	
+	font-weight: bold;
 }
 .table-column--is-center{
 	text-align: center;
@@ -24,4 +38,10 @@
 }
 .table-column--is-right{
 	text-align: right;
+}
+.table-tbody-tr:nth-child(even){
+	background: #F1F1F1;
+}
+.table-tbody-tr:nth-child(odd){
+	background: #fff;
 }
