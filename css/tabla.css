@@ -1,0 +1,27 @@
+.table{
+	border: 1px solid #000;
+}
+
+.table-thead{
+	border-bottom: 1px solid #000;
+}
+.table-thead-th,
+.table-tbody-td{
+	padding: 5px;
+}
+.table-thead-th{
+	background: #ccc;
+	color: black;
+	text-align: left;
+	border-right: 1px solid #000;
+	
+}
+.table-column--is-center{
+	text-align: center;
+}
+.table-column--is-left{
+	text-align: left;
+}
+.table-column--is-right{
+	text-align: right;
+}

@@ -1,0 +1,61 @@
+/*
+ * Styles
+ * Styles about my main site
+ * @author mfyance
+ */
+
+@charset "utf-8";
+
+/*@import '../framework/css/myreset.css';
+*/
+.everis-main{
+	width: 100%;
+	display: block;
+}
+.everis-main-div{
+	display: inline-block;
+	border: 1px solid #000;
+	background: #ccc;
+	width: 50%;
+	float: left;
+}
+
+.everis-mylist {
+	list-style-type: none;
+	color: #f40909;
+}
+.everis-mylist-li,
+.everis-mylist-a {
+	color: #5b5b5b;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	font-style: italic;
+	cursor: pointer;
+	text-decoration: underline;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.everis-table{
+
+}	
+
+.everis-table-thead{
+
+}
+.everis-table-tbody{
+
+}
+.everis-table-tr{
+
+}
+.everis-table-td{
+
+}
+
+
+.everis-table2{
+
+}	
