@@ -1,49 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-  	<meta name="organization" content="FullStack.pe">
-  	<meta name="author" content="mfyance">
-  	<meta name="description" content="Desarrollo Frontend Jr.">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Multimedia: Imágenes - Video</title>
-	<link rel="icon" type="image/png" href="framework/img/favicon-16x16.png" sizes="16x16">
-	<style>
-		img{
-			width: 300px;
-			height: 400px;
-		}
-
-		@media only screen and (max-width: 800px) {    
-	       	img{
-	       		width: 100%;
-	       		height: inherit;
-	       	}
-	       	video {
-				width: 100%    !important;
-				height: auto   !important;
-			}
-		}
-
-	</style>
+	<title>Youtube, Iframe, Audio, Video, Embeb, Object</title>
+	<link rel="stylesheet" href="css/multimedia.css">
 </head>
-<body>	
-	<p><b>To understand this example, you should open this page on a phone or a tablet.</b></p>
-	<img src="https://www.fullstack.pe/img/home/background-people-clean.jpg" alt="Fullstack" width="360" height="245">
-	<p>
-	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-	Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-	</p>
-	<div>
-		<video controls>
-		  <source src="framework/videos/loop.mp4" type="video/mp4">
-		  Tu navegador no implementa el elemento <code>video</code>.
-		</video>
-	</div>
-	<div class="video-container">
-		
-	</div>
+<body>
+	<h2>Embeb</h2>
+	<embed src="https://cdn.www.gob.pe/uploads/document/file/695454/resolucion-ministerial-n-265-2020-minsa.pdf" type="">
 
+	<h2>Object</h2>
+	<object
+	  	type="text/html"
+	  	data="https://www.google.com/maps/embed?origin=mfe&pb=!1m14!1m8!1m3!1d24637.230090345016!2d-0.382204!3d39.477148!3m2!1i1024!2i768!4f13.1!3m3!1m2!2sies+abastos!4s11271517402525668942!6i14!3m1!1ses!5m1!1ses"
+	  	class="object">
+	</object>
+
+	<h2>Youtube</h2>
+	<iframe width="420" height="315"
+		src="https://www.youtube.com/embed/2MpUj-Aua48?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1">
+	</iframe>
+
+
+
+
+	<h2>Audio</h2>
+	<audio controls autoplay>
+  		<source src="multimedia/sonido.ogv" type="audio/ogg">
+	</audio>
+
+	<h2>Video</h2>
+	<video controls="false" autoplay="">
+	 	<source src="multimedia/video.mp4" type="video/mp4">
+	</video>
+	
+
+
+	
+	
+
+	
+
+	<h2>IFRAME</h2>
+
+	<iframe 
+		src="http://moncal.pe/" 
+		title="Iframe - Ejemplo"
+		class="iframe iframe--is-large">			
+	</iframe>
+	<iframe 
+		src="https://cdn.www.gob.pe/uploads/document/file/695454/resolucion-ministerial-n-265-2020-minsa.pdf" 
+		title="Iframe - Ejemplo"
+		class="iframe iframe--is-medium">			
+	</iframe>
+	<iframe 
+		src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTM1C5PPdvw6y6-ccYHPfhmrbk3jOC6Tl7BekEwIzWoELuCdg1y&usqp=CAU" 
+		title="Iframe - Ejemplo"
+		class="iframe iframe--is-small">			
+	</iframe>
+
+
+
+
+	
 </body>
 </html>

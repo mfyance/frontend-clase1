@@ -29,3 +29,10 @@ git clone https://github.com/mfyance/frontend-junior.git
 1. [temario](https://docs.google.com/a/identired.com/spreadsheets/d/1hES_VsLcATG61ck7eHY49ljmGCOUy90Z_bS1FDj3d30/edit?usp=sharing)
 2. [presentación 1](https://www.canva.com/design/DACOXrINg2U/1_XFtZ8696JykEUIRAX2JQ/view?utm_content=DACOXrINg2U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 3. [presentación 2](https://www.canva.com/design/DACP0n-Zrkc/Cdb6WOOCo-H54NQpepIb1Q/view?utm_content=DACP0n-Zrkc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+
+
+
+
+### <i class="icon-folder-open"></i> Archivos Complementarios
+1. https://www.w3schools.com/html/html_entities.asp
+2. https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote
