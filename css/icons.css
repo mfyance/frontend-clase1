@@ -1,3 +1,70 @@
 body{
-	background: #ccc;
+	background: #ddd;
+}
+
+.content{
+	width: 	100%;
+	max-width: 	600px;
+	margin: 30px auto;
+}
+
+
+.button2:hover .button-icon{
+	color: white
+}
+.button2:hover{
+	background: #000;
+}
+.button2{
+	padding: 10px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: 80px;
+	border: 0;
+	box-shadow: 0 1px 5px #b1b1b1;
+}
+
+
+.button{
+	display: inline-block;
+	border: 0;
+	background: #ff924e;
+	border-radius: 	20px;
+	padding: 10px;
+	margin-top: 	40px;
+	color: white;
+}
+
+.button-icon,
+.button-text{
+	display:inline-block;	
+	vertical-align: 	middle;
+}
+.button-text{
+	margin-left: 	10px;
+}
+.button-icon{
+	color: #2b2b2b;
+}
+
+
+
+
+
+.list-icons{
+	margin-top: 50px;
+}
+
+.list-icons-li{
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.list-icons-li:before{
+	content: "\f063";
+	font: normal normal normal 14px/1 FontAwesome;
+	position: absolute;
+	top: 2px;
+	left: 0	;
 }
