@@ -73,13 +73,22 @@ body{
 	left: 0	;
 }
 
-
-.check {
-	background: url('../img/sprite2.png') no-repeat -358px -326px;
-	width: 20px;
-	height: 20px;
+.sprite{
+	background-image: url('../img/sprite2.png');
 	display: inline-block;
 	vertical-align: middle;
+	background-repeat: no-repeat;
+}
+
+.comment {
+	background-position: -358px -326px;
+	width: 20px;
+	height: 20px;	
+}
+.cloud {
+	background-position:-132px -136px;
+	width: 24px;
+	height: 16px;	
 }
 
 
