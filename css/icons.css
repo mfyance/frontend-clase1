@@ -8,12 +8,18 @@ body{
 	margin: 30px auto;
 }
 
+.content-sprite{
+	margin-bottom: 50px;
+	background: #ECFBFF;
+	padding: 40px
+}
+
 
 .button2:hover .button-icon{
 	color: white
 }
 .button2:hover{
-	background: #000;
+	background: #8bd4e7;
 }
 .button2{
 	background: white;
@@ -93,3 +99,25 @@ body{
 
 
 
+
+.sprive-svg{
+
+}
+
+
+.icon{
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+}
+.icon-archives,
+.icon-play,
+.icon-home{
+	fill: #797979;
+}
+
+.button2:hover .icon{
+	fill: white
+}
