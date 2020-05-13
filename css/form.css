@@ -1,0 +1,141 @@
+.home{
+	position: relative;
+	height: 100vh;
+	background: #f1f1f1;
+	font-family: Roboto
+}
+
+.form{
+	width: 100%;
+	width: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 40px auto;
+	padding: 20px;
+	background: white;
+	box-shadow: 2px 2px 2px #e3e3e3;
+	border-radius: 39px;
+}
+.block{
+	display: block;
+	margin:40px 0
+}
+
+.form-textarea:disabled,
+.form-input:disabled{
+	background: #e3e3e3;
+	color: #ffffff;
+	cursor: not-allowed;
+}
+.form-textarea:focus,
+.form-input:focus{
+	border-color: #00adce;
+	background: white;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); 
+}
+
+.form-textarea,
+.form-input{
+	width: 100%;
+	padding: 8px;
+	border-radius: 4px;
+	background: #f8f8f8;
+	border: 0;
+	border: 2px solid #ddd;
+}
+
+.form-textarea{
+	height: 140px;
+	resize: none;
+}
+
+.form-select{
+	width: 100%;
+	padding: 9px 10px;
+	background-color: #fff;
+	border-radius: 7px;
+	border-color: #dedede;
+}
+
+.form-double{
+	position: relative;
+	display: flex;
+}
+.form-double-input{
+	width: calc(100% - 40px);
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right: 0
+}
+.form-double-icon{
+	width: 40px;
+	border: none;
+	background: #edb9a4;
+	color: #fff;
+}
+
+.form-double2{
+	position: relative;
+}
+.form-double2-icon{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 39px;
+	background: #edb9a4;
+	color: white;
+	border: none;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+
+.form-radio{
+	
+}
+
+.form-checkbox{
+
+}
+
+.form-loading{
+	width: 20px;
+	height: 20px;
+}
+
+.form-double2-icon-more{
+	display: block;
+}
+.form-loading{
+	display: none;
+}
+.loader .form-loading{
+	display: block;
+}
+.loader .form-double2-icon-more{
+	display: none;
+}
+
+
+
+
+::-webkit-input-placeholder {
+    color: #c7c7c7;
+    font-style: italic;
+}
+:-moz-placeholder,
+::-moz-placeholder {
+    color: #c7c7c7;
+    font-style: italic;
+}
+:-ms-input-placeholder {
+    color: #c7c7c7;
+    font-style: italic;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ddd inset;
+}
