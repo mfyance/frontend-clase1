@@ -1,7 +1,10 @@
 
 :root{
 	--color-primary: #FF560A;
-	--color-secondary: #edb9a4;
+	--color-primary-black: #003f88;
+	--color-secondary: #005ECC;
+	--color-secondary-black: #e24600;
+	--color-disabled: #ddd;
 	--font-primary: Roboto;
 }
 
@@ -188,10 +191,41 @@
 
 
 .button{
+	padding: 10px;
+	border: 0;
+	background: none;
 	
 }
 
 
+.button-primary:active{
+	transform: scale(0.95)
+}
+.button-primary:disabled{
+	background-color: var(--color-disabled);
+	color: #ccc;
+	cursor: not-allowed;
+}
+.button-primary:hover:not(:disabled){
+	background-color: #003f88;
+}
+.button-primary{
+	border-radius: 10px;
+	background: #005ecc;
+	color: white;
+}
+
+
+
+
+.button-secondary:hover{
+	background-color: var(--color-secondary-black);
+}
+.button-secondary{
+	border-radius: 10px;
+	background: var(--color-primary);
+	color: white;
+}
 
 
 
