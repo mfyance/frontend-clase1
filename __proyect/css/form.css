@@ -1,30 +1,8 @@
 
-:root{
-	--color-primary: #FF560A;
-	--color-primary-black: #003f88;
-	--color-secondary: #005ECC;
-	--color-secondary-black: #e24600;
-	--color-menu: #363C56;
-	--color-disabled: #ddd;
-	--font-primary: Roboto;
-}
-
-.home{
-	position: relative;
-	height: 100vh;
-	background: #f1f1f1;
-	font-family: var(--font-primary)
-}
-.block{
-	display: block;
-	margin:40px 0
-}
-.block-tab{
-	width: 400px;
-	margin: 0 auto
-}
-
-
+/*
+ * Form
+ * @author mfyance
+ */
 
 .form{
 	width: 100%;
@@ -156,9 +134,10 @@
 	top: 0px;
 	z-index: 2;
 	opacity: 0;
-	width: 30px;
-	height: 30px;
+	width: 20px;
+	height: 20px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 .form-radio:before,
 .form-checkbox:before{
@@ -166,10 +145,12 @@
 	position: absolute;
 	display: block;
 	z-index: 1;
-	width: 30px;
-	height: 30px;
+	width: 20px;
+	height: 20px;
 	border: 1px solid #dedede;
 	border-radius: 5px;
+	cursor: pointer;
+	/* background: #f3f3f3; */
 }
 
 .form-radio:after,
@@ -196,7 +177,9 @@
 	opacity: 1;
 }
 
-
+.form-checkbox--is-th:before{
+	background: #f3f3f3 !important
+}
 
 
 
@@ -276,6 +259,23 @@
 }
 
 
+
+.button-paginator--is-active,
+.button-paginator:active,
+.button-paginator:hover{
+	border-color: var(--color-secondary) !important;
+	background-color: var(--color-secondary) !important;
+	color: #fff;
+}
+.button-paginator{
+	background: white;
+	border: 1px solid var(--color-grey);
+	border-radius: 5px;
+	padding: 7px 10px !important;
+	margin: 0 1px;
+	cursor: pointer;
+	font-size: 11px;
+}
 
 
 

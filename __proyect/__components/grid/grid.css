@@ -1,0 +1,148 @@
+
+/*
+ * Grid
+ * @author mfyance
+ */
+body{
+	font-family: var(--font-primary);
+	background-color: #F8F8F8;
+}
+.box-card{
+	margin: 10px;
+	padding: 80px;
+	box-shadow: 2px 2px 13px #00000029;
+	border-radius: 20px;
+	max-width: 70%;
+	margin: 20px auto;
+	background-color: #fff;
+}
+
+
+
+
+.grid-card{
+	width: 100%;	
+}
+
+.grid{
+	width: 100%;
+	box-shadow: 2px 2px 13px #00000029;
+}
+.grid-column--is-center{
+	text-align: center !important;
+}
+.grid-column--is-left{
+	text-align: left !important;
+}
+.grid-column--is-right{
+	text-align: right !important;
+}
+.grid-column--is-small{
+	width: 80px !important;
+}
+.grid-column--is-extrasmall{
+	width: 40px !important;
+}
+.form-checkbox--is-center{
+	position: relative;
+	left: -4px
+}
+
+
+.grid-thead{
+	/* border-bottom: 1px solid #000; */
+	font-weight: bolder;
+}
+.grid-thead-th,
+.grid-tbody-td{
+	padding: 10px;
+}
+.grid-tbody-td{
+	/* border-right: 1px solid #000; */
+	/* border-bottom: 1px solid #000; */
+	/* font-family: arial */
+}
+.grid-thead-th{
+	background: #dbdbdb;
+	color: black;
+	text-align: left;
+	/* border-right: 1px solid #000; */
+	font-weight: bold;
+}
+
+.grid-tbody-tr:nth-child(even){
+	background: #F1F1F1;
+}
+.grid-tbody-tr:nth-child(odd){
+	background: #fff;
+}
+
+
+
+.grid-icon:hover{
+	color: var(--color-secondary)
+}
+.grid-icon{
+	cursor: pointer;
+	color: var(--color-primary);
+	transition: all .3s ease
+}
+
+
+
+
+
+everis-tooltip-content,
+everis-tooltip{
+	display: inline-block;
+}
+
+everis-tooltip{
+	position: relative;
+}
+
+everis-tooltip:hover everis-tooltip-content{
+	opacity: 1;
+	transform: scale(1);
+}
+everis-tooltip-content:after{
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 9px;
+	width: 0;
+	height: 0;
+	border-bottom: solid 10px #eaeaea;
+	border-left: solid 10px transparent;
+	border-right: solid 10px transparent;
+	z-index: 1;
+	opacity: 0.7;
+	filter: blur(1px);
+}
+everis-tooltip-content:before{
+	content: '';
+	position: absolute;
+	top: -7px;
+	left: 11px;
+	width: 0;
+	height: 0;
+	border-bottom: solid 8px #ffffff;
+	border-left: solid 8px transparent;
+	border-right: solid 8px transparent;
+	z-index: 2;
+}
+everis-tooltip-content{
+	position: absolute;
+	top: 26px;
+	left: -7px;
+	opacity: 0;
+	width: 70px;
+	padding: 9px 15px;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 3px 6px #7b7b7b;
+	z-index: 2;
+	transform: scale(0);
+	transition: all .3s ease;
+	transform-origin: top left
+}
