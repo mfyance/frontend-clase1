@@ -1,8 +1,15 @@
+
+:root{
+	--color-primary: #FF560A;
+	--color-secondary: #edb9a4;
+	--font-primary: Roboto;
+}
+
 .home{
 	position: relative;
 	height: 100vh;
 	background: #f1f1f1;
-	font-family: Roboto
+	font-family: var(--font-primary)
 }
 
 .form{
@@ -32,9 +39,14 @@
 }
 .form-textarea:focus,
 .form-input:focus{
-	border-color: #00adce;
+	border-color: var(--color-primary);
 	background: white;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); 
+	/*box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);*/
+}
+
+.form-input:focus + .form-double-icon,
+.form-input:focus + .form-double2-icon{
+	background: var(--color-primary);
 }
 
 .form-textarea,
@@ -73,7 +85,7 @@
 .form-double-icon{
 	width: 40px;
 	border: none;
-	background: #edb9a4;
+	background: var(--color-secondary);
 	color: #fff;
 }
 
@@ -86,21 +98,16 @@
 	right: 0;
 	width: 40px;
 	height: 39px;
-	background: #edb9a4;
+	background: var(--color-secondary);
 	color: white;
 	border: none;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 
-
-.form-radio{
-	
-}
-
-.form-checkbox{
-
-}
 
 .form-loading{
 	width: 20px;
@@ -119,6 +126,79 @@
 .loader .form-double2-icon-more{
 	display: none;
 }
+
+
+
+
+
+.form-radio:after,
+.form-checkbox:after{
+	content: '';
+	background: var(--color-primary) url("http://i.imgur.com/dR1TM0y.png");
+	background-size: 13px 9px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	opacity: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+}
+.form-radio:before,
+.form-checkbox:before{
+	content: '';
+	position: absolute;
+	display: block;
+	z-index: 1;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+}
+
+.form-radio:after,
+.form-radio:before{
+	border-radius: 50%;
+}
+
+.form-radio,
+.form-checkbox{
+	position: relative;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    display: inline-block;
+    outline: 0;
+    user-select: none;
+    -webkit-appearance: none;
+    user-select: none;
+    appearance: none;
+}
+
+.form-radio:checked:after,
+.form-checkbox:checked:after{
+	opacity: 1;
+}
+
+
+
+
+
+.button{
+	
+}
+
+
+
+
+
+
+
+
+
 
 
 
