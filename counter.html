@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>COUNTER</title>
+	<link rel="stylesheet" href="framework/css/myreset.css">
+	<style>
+		
+		.body{
+			padding: 120px;
+		}
+		ul{
+			counter-reset: everis-counter;
+			
+		}
+		ul li{
+			position: relative;
+			padding-left: 40px;
+		}
+		ul li:before{
+			content: counter(everis-counter) ".-  ";
+			counter-increment: everis-counter 1;
+			position: absolute;
+			top: 0;
+			left: 0px;
+			width: 20px;
+		}
+	</style>
+</head>
+<body class="body">
+	
+	<ul>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	  <li>Object data </li>
+	</ul>
+
+</body>
+</html>
