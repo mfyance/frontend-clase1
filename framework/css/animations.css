@@ -1,0 +1,78 @@
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	max-width: 50%;
+	margin: 40px auto
+}
+
+.button:hover{
+	background: yellow;
+	color: black;
+	box-shadow: 0 12px 7px #ddd;
+	transform: scale(1.1);
+}
+.button{
+	background: #ddd;
+	padding: 60px;
+	border: none;
+	color: white;
+	-webkit-transition: all .3s ease .1s;
+	-o-transition: all .3s ease .1s;
+	transition: all .3s ease .1s;
+	transform: scale(1);
+}
+
+
+.box1{
+	animation-name: everis;
+	animation-duration: 4s;
+}
+.box2{
+	animation-name: everis2;
+	animation-duration: 4s;
+}
+.box3,
+.box1,
+.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}
+
+@keyframes everis {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+@keyframes everis2 {
+	0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
+}
+
+
+.box3 {
+    transform-style: preserve-3d;
+    transform: perspective(575px) rotateX(-358deg) rotateY(42deg);
+}
+
+.box4{
+	width: 500px;
+	height: 500px;
+	background: grey;
+	padding: 10px;	
+	position: relative;
+}
+.box-center{
+	display: inline-block;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

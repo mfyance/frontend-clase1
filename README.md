@@ -40,3 +40,8 @@ git clone https://github.com/mfyance/frontend-junior.git
 4.[Entities](https://www.freeformatter.com/html-entities.html)
 5.[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 6.[Grids Css](https://css-tricks.com/snippets/css/complete-guide-grid/)
+7.[Responsive](https://developer.mozilla.org/es/docs/CSS/Media_queries)
+8.[Scrolls](https://codepen.io/devstreak/pen/dMYgeO)
+9.[Desminificar CSS](https://unminify.com/)
+10.[Minificar CSS](https://cssminifier.com/)
+11.[Framework Layout Grid](http://flexboxgrid.com/)
