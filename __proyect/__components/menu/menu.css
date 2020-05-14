@@ -77,14 +77,52 @@
 	transition: all .3s ease
 }
 
-/*.button--is-active.button-tab{}
-.button-tab.button--is-active{}
-*/
-.button--is-active{
+.menu-option-active .button-tab{
 	background: var(--color-secondary);
 	box-shadow: inset 15px 0 0 var(--color-primary);
 }
-.button--is-active .button--is-arrow{
+.menu-option-active .button--is-arrow{
 	opacity: 1;
 }
 
+
+
+menu-option{
+	display: block;
+}
+
+.button-tab-content{
+
+}
+.button-tab-content-ul{	
+	background: #464D6F;		
+	padding: 10px;		
+	
+}
+.button-tab-content-li{		
+	padding-left: 55px;
+}
+
+.button-tab-content-a:hover{
+	color: white
+}
+.button-tab-content-a:hover:after{
+	opacity: 1;
+}
+.button-tab-content-a:after{
+	content:'trip_origin';
+	font-family: 'Material Icons';
+	position: absolute;
+	top: 12px;
+	left: -22px;
+	font-size: 14px;
+	opacity: 0;
+}
+.button-tab-content-a{
+	position: relative;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	color: #8B90A9;
+	font-size: 20px;
+}

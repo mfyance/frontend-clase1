@@ -35,9 +35,8 @@ git clone https://github.com/mfyance/frontend-junior.git
 
 ### <i class="icon-folder-open"></i> Enlaces  de Temarios
 1.[Html](https://www.w3schools.com/html/html_entities.asp)
-
 2.[Blockquote](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote)
-
 3.[Counter](https://codepen.io/svinkle/pen/HAzyb)
-
 4.[Entities](https://www.freeformatter.com/html-entities.html)
+5.[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+6.[Grids Css](https://css-tricks.com/snippets/css/complete-guide-grid/)

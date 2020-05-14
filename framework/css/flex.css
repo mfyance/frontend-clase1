@@ -1,0 +1,141 @@
+
+	body{
+		background: #eaeaea;
+	}
+	.content{
+		background: #ccc;
+		padding: 20px;
+		margin: 40px auto;
+	}
+
+	.flex{
+		display: flex;
+		background: #fff;
+		
+	}
+
+	.flex-direction{
+		flex-direction: row-reverse;
+		flex-direction: column-reverse;
+		flex-direction: column;
+		flex-direction: row;
+	}
+	.flex-wrap{
+		flex-wrap: wrap-reverse;
+		flex-wrap: wrap;
+	}
+
+	.flex-content:nth-child(odd){
+		background: #f7b28f;
+	}
+	.flex-content{
+		background: #555;
+		padding: 10px;
+		color: white;
+		font-size: 40px;
+
+	}
+
+	.flex-size-40{
+		width: 40%
+	}
+
+
+	.flex-justify{
+		justify-content: flex-start;
+		justify-content: flex-end;
+		justify-content: center;
+		justify-content: space-between;
+	}
+	.flex-menu{	
+		width: 100%;
+		background: #ccc;	
+	}
+
+	.flex-menu-opcion{
+		background: #fff;
+	}
+
+	.flex-around{
+		justify-content: space-evenly;
+		justify-content: space-around;
+	}
+
+
+	.flex-content-items{
+		height: 600px;
+		background: #555;
+	}
+.flex-item{
+	/* height: 140px; */
+	background: #fff;
+	padding: 25px;
+	margin: 2px;
+}
+
+.align-items{
+	flex-direction:row;
+	align-items: center;
+	align-items: center;
+}
+
+
+
+
+
+.products{
+	display: flex;
+	width: 100%;
+	height: 328px;
+	background-color: #555;
+	padding: 30px;
+	justify-content: space-between;
+}
+.products-box{
+	width: 450px;
+	height: auto;
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #555;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.products-box-title{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.dates{
+	height: 50vh;
+	width: 20vw;
+	background: #ffa765;
+	padding: 20px;
+	overflow: auto;
+	margin-bottom: 100px;
+}
+.dates-box{
+	background: white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: -2px 2px 2px #71717173;
+	margin-bottom: 10px;
+}
+.dates-box-icon{
+
+}
+.dates-box-number{
+font-size: 35px;
+color: blue;
+}
+.dates-box-description{
+
+}
