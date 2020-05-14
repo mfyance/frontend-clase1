@@ -80,7 +80,7 @@ body{
 }
 
 .sprite{
-	background-image: url('../img/sprite2.png');
+	background-image: url('../img/sprite.png');
 	display: inline-block;
 	vertical-align: middle;
 	background-repeat: no-repeat;

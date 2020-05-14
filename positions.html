@@ -2,10 +2,68 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>POSITIONS</title>
+  	<meta name="organization" content="beez.pe">
+  	<meta name="author" content="mfyance">
+  	<meta name="description" content="Front-end Developer">
+	<link rel="icon" type="image/png" href="framework/img/favicon.png" sizes="16x16">
 	<link rel="stylesheet" href="framework/css/myreset.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/positions.css">
+	<title>POSITIONS</title>
+	<style>
+		body{
+			font-family: Roboto;
+			padding: 70px
+		}
+		.main-content{
+			width: 100%;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+		.title{
+			margin-bottom: 	5px;
+			margin-top: 	30px;
+		}
+		.header{
+			background: #ccc;
+			height: 100px;
+			overflow: hidden;
+		}
+		.header-child{
+			background: #ffe6e6;
+			display: inline-block;
+		}
+
+		.header-child--is-static{
+			position: static;
+		}
+		.header-child--is-relative{
+			position: relative;
+		}
+		.header-child--is-absolute{
+			position: absolute;
+		}
+		.header-child--is-fixed{
+			position: fixed;
+		}
+
+		.header-child-logo{
+			top: 0;
+			left: 0;
+		}
+
+		.header-child-button{
+			top: 0;
+			right: 0;
+		}
+
+
+		.header-menu{
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+	</style>
 </head>
 <body>
 

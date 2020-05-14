@@ -33,6 +33,6 @@ git clone https://github.com/mfyance/frontend-junior.git
 
 
 
-### <i class="icon-folder-open"></i> Archivos Complementarios
-1. https://www.w3schools.com/html/html_entities.asp
-2. https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote
+### <i class="icon-folder-open"></i> Enlaces  de Temarios
+1. [HTML] https://www.w3schools.com/html/html_entities.asp
+2. [Blockquote] https://developer.mozilla.org/es/docs/Web/HTML/Elemento/blockquote
