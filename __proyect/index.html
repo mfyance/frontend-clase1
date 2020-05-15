@@ -9,13 +9,14 @@
 	<link rel="stylesheet" href="css/myreset.css">
 	<link rel="stylesheet" href="css/design-tokens.css">
 	<link rel="stylesheet" href="css/snippets.css">
-	<link rel="stylesheet" href="css/core.css">
 	<link rel="stylesheet" href="css/form.css">
 	<link rel="stylesheet" href="css/breadcrumbs.css">
 	<link rel="stylesheet" href="css/paginator.css">
 	<link rel="stylesheet" href="__components/profile/profile.css">
 	<link rel="stylesheet" href="__components/menu/menu.css">
 	<link rel="stylesheet" href="__components/grid/grid.css">
+	<link rel="stylesheet" href="css/tooltip.css">
+	<link rel="stylesheet" href="css/core.css">
 	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -24,10 +25,11 @@
 	<title>PROYECT EVERIS - ENTEL</title>
 </head>
 <body>
-	<main-page>
+	<main-page class="profile--is-active2">
 		<header class="app-header">
 			<div class="app-logo">
 				<img src="img/logo-entel.svg" alt="Logo Entel" class="app-logo-img">
+				<img src="img/logo-entel-r.svg" alt="Logo Entel" class="app-logo-img--is-mobile">
 			</div>
 			<div class="app-options">
 				<span class="material-icons app-options-burger">menu</span>
@@ -47,9 +49,10 @@
 					<div class="profile-photo">
 						<img src="img/user.png" alt="Foto perfil" class="profile-photo-img">
 					</div>
-					<span class="profile-text">LUIS ENRIQUE</span>
+					<span class="profile-text profile-text--is-white m-l-20">LUIS ENRIQUE</span>
 					
 					<img class="profile-icon" src="img/icons/dropdown.svg" alt="Flecha">
+					
 				</section>
 			</div>
 		</header>
@@ -61,7 +64,7 @@
 					<menu-option>
 						<button class="button button-tab ">
 							<i class="material-icons button--is-icon">home</i>
-							Inicio
+							<span class="button-tab-name">Inicio</span>
 							<i class="material-icons button--is-arrow">arrow_drop_down</i>
 						</button>
 					</menu-option>
@@ -70,7 +73,7 @@
 					<menu-option class="menu-option-active">
 						<button class="button button-tab">
 							<i class="material-icons button--is-icon">pie_chart</i>
-							Tabla
+							<span class="button-tab-name">Tabla</span>
 							<i class="material-icons button--is-arrow">arrow_drop_down</i>				
 						</button>
 						<nav class="button-tab-content">
@@ -97,7 +100,7 @@
 					<menu-option>
 						<button class="button button-tab">
 							<i class="material-icons button--is-icon">calendar_today</i>
-							Agenda
+							<span class="button-tab-name">Agenda</span>
 							<i class="material-icons button--is-arrow">arrow_drop_down</i>
 						</button>
 					</menu-option>
@@ -178,7 +181,34 @@
 					</section>
 				</section>
 			</main>
+
+			
+			<profile-detail>
+				<profile-detail-content>
+					<div class="profile-photo">
+						<img src="img/user.png" alt="Foto perfil" class="profile-photo-img">
+					</div>
+					<span class="profile-text profile-text--is-blue m-t-20">LUIS ENRIQUE</span>
+				</profile-detail-content>
+				<profile-detail-menu>
+					<div class="profile-detail-menu-option">
+						<i class="material-icons profile-detail-menu-option-icon">edit</i>
+						<span class="profile-detail-menu-option-text">Editar perfil</span>
+					</div>
+					<div class="profile-detail-menu-option">
+						<i class="material-icons profile-detail-menu-option-icon">photo</i>
+						<span class="profile-detail-menu-option-text">Cambiar foto</span>
+					</div>
+					<div class="profile-detail-menu-option">
+						<i class="material-icons profile-detail-menu-option-icon">logout</i>
+						<span class="profile-detail-menu-option-text">Cerrar sesión</span>
+					</div>
+				</profile-detail-menu>
+			</profile-detail>
+
 		</app-content>
+
+
 	</main-page>
 </body>
 </html>

@@ -23,6 +23,8 @@ main-page{
 		
 	justify-content: space-between;
 }
+
+
 .app-logo{
 	
 	width: 250px;
@@ -71,10 +73,14 @@ aside-title{
 	left: calc(50% - 75px);
 }
 
-
+.app-logo-img--is-mobile{
+	display: none;
+    width: 120px;
+    padding: 20px;
+}
 .app-logo-img{
-width: 100%;
-max-width: 200px;
+	width: 100%;
+	max-width: 200px;
 }
 .app-options-burger:hover{
 	color: var(--color-secondary);
@@ -94,6 +100,8 @@ max-width: 200px;
 }
 .app-profile{
 	width: 300px;
+	display: flex;
+	justify-content: center;
 }
 
 
@@ -128,7 +136,47 @@ app-title{
 	background-size: contain;
 }
 
-@media only screen and (max-width: 1800px) {  
 
 
+
+
+@media only screen and (max-width: 1000px) {  
+	.profile-text,
+	.app-logo-img,
+	.button-tab-content-a:after,
+	.button-tab-name{
+		display: none;
+	}
+
+
+	.button-tab{
+		text-align: center !important;
+	}
+	.button-tab-content-li{
+		padding: 0
+	}
+	.button--is-arrow{
+		right: -2px
+	}
+	.app-logo-img--is-mobile{
+		display: block;
+	}
+
+	.app-logo,
+	.app-aside{
+		width: 120px;
+		min-width: 120px;
+		max-width: 120px;
+	}
+	.app-options{
+		width: 100%
+	}
+	.profile,
+	.profile-photo{
+		width: 100%;
+		display: flex;
+		max-width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
 }
