@@ -3,6 +3,17 @@
  * @author mfyance
  */
 
-body{
-	
+html {
+	font-size:62.5%;
+}
+body{			
+	font-family: '';
+	background-color: yellow;
+}
+
+
+
+@media only screen and (max-width: 1800px) {  
+
+
 }
