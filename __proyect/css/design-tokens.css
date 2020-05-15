@@ -9,10 +9,18 @@
 	--color-primary-black: #003f88;
 	--color-secondary: #005ECC;
 	--color-secondary-black: #e24600;
+	--color-skyblue: #ECFBFF;
 	--color-grey: #ccc;
+	--color-grey-light: #F8F8F8;
+	--color-grey-medium: #707070;
 	--color-grey-black: #4b4b4b;
+	--color-grey-aside: #3D4154;
+	--color-purple-aside: #8B90A9;
+	--color-bg-aside: #464D6F;
 	--color-menu: #363C56;
 	--color-disabled: #ddd;
 	--font-primary: Barlow;
 	--font-secondary: Roboto;
+	--padding-10: 10px;
+	--padding-20: 20px;
 }

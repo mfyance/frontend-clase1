@@ -230,34 +230,6 @@
 }
 
 
-.button-tab:hover{
-	box-shadow: inset 15px 0 0 var(--color-primary);
-}
-.button-tab{
-	padding: 30px 25px;
-	background: var(--color-menu);
-	color: white;
-	display: block;
-	width: 100%;
-	text-align: left;
-	font-size: 22px;
-	border-bottom: 1px solid #232323;
-	box-shadow: inset 0px 1px 0 #777777;
-	position: relative;
-	transition: all .3s ease
-}
-
-/*.button--is-active.button-tab{}
-.button-tab.button--is-active{}
-*/
-.button--is-active{
-	background: var(--color-secondary);
-	box-shadow: inset 15px 0 0 var(--color-primary);
-}
-.button--is-active .button--is-arrow{
-	opacity: 1;
-}
-
 
 
 .button-paginator--is-active,
@@ -275,6 +247,22 @@
 	margin: 0 1px;
 	cursor: pointer;
 	font-size: 11px;
+}
+
+.button-icon:hover{
+	background: var(--color-grey-black);
+	color: white;
+	box-shadow: none;
+}
+.button-icon{
+	padding: 10px;
+	background: #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	color: var(--color-grey-medium);
+	box-shadow: 0 2px 5px #ddd;
+	transition: all .3s ease;
 }
 
 

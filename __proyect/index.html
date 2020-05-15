@@ -1,27 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
   	<meta name="organization" content="beez.pe">
   	<meta name="author" content="mfyance">
   	<meta name="description" content="Front-end Developer">
-	<link rel="icon" type="image/png" href="framework/img/favicon.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
 	<link rel="stylesheet" href="css/myreset.css">
 	<link rel="stylesheet" href="css/design-tokens.css">
+	<link rel="stylesheet" href="css/snippets.css">
+	<link rel="stylesheet" href="css/core.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/breadcrumbs.css">
+	<link rel="stylesheet" href="css/paginator.css">
 	<link rel="stylesheet" href="__components/profile/profile.css">
 	<link rel="stylesheet" href="__components/menu/menu.css">
-	<link rel="stylesheet" href="__components/menu/grid.css">
+	<link rel="stylesheet" href="__components/grid/grid.css">
 	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-	<title>PROYECT EVERIS</title>
-
+	<title>PROYECT EVERIS - ENTEL</title>
 </head>
 <body>
-	<main id="main">
-		
-	</main>
+	<main-page>
+		<header class="app-header">
+			<div class="app-logo">
+				<img src="img/logo-entel.svg" alt="Logo Entel" class="app-logo-img">
+			</div>
+			<div class="app-options">
+				<span class="material-icons app-options-burger">menu</span>
+
+				<div class="app-options-buttons">
+					<button class="button button-icon">
+						<span class="material-icons">notifications</span>
+					</button>
+
+					<button class="button button-icon m-l-20">
+						<span class="material-icons">search</span>
+					</button>
+				</div>
+			</div>
+			<div class="app-profile">
+				<section class="profile">
+					<div class="profile-photo">
+						<img src="img/user.png" alt="Foto perfil" class="profile-photo-img">
+					</div>
+					<span class="profile-text">LUIS ENRIQUE</span>
+					
+					<img class="profile-icon" src="img/icons/dropdown.svg" alt="Flecha">
+				</section>
+			</div>
+		</header>
+
+		<app-content>
+			<aside class="app-aside">
+				<aside-title>MENÚ DE OPCIONES</aside-title>
+				<menu class="block block-tab">					
+					<menu-option>
+						<button class="button button-tab ">
+							<i class="material-icons button--is-icon">home</i>
+							Inicio
+							<i class="material-icons button--is-arrow">arrow_drop_down</i>
+						</button>
+					</menu-option>
+					
+
+					<menu-option class="menu-option-active">
+						<button class="button button-tab">
+							<i class="material-icons button--is-icon">pie_chart</i>
+							Tabla
+							<i class="material-icons button--is-arrow">arrow_drop_down</i>				
+						</button>
+						<nav class="button-tab-content">
+							<ul class="button-tab-content-ul">
+								<li class="button-tab-content-li">
+									<a href="javascript:void(0)" class="button-tab-content-a">Opción 1</a>
+								</li>
+								<li class="button-tab-content-li">
+									<a href="javascript:void(0)" class="button-tab-content-a">Opción 2</a>
+								</li>
+								<li class="button-tab-content-li">
+									<a href="javascript:void(0)" class="button-tab-content-a">Opción 3</a>
+								</li>
+								<li class="button-tab-content-li">
+									<a href="javascript:void(0)" class="button-tab-content-a">Opción 4</a>
+								</li>
+								<li class="button-tab-content-li">
+									<a href="javascript:void(0)" class="button-tab-content-a">Opción 5</a>
+								</li>
+							</ul>
+						</nav>
+					</menu-option>
+					
+					<menu-option>
+						<button class="button button-tab">
+							<i class="material-icons button--is-icon">calendar_today</i>
+							Agenda
+							<i class="material-icons button--is-arrow">arrow_drop_down</i>
+						</button>
+					</menu-option>
+				</menu>
+				<img class="aside-logo" src="img/logo-everis.png" alt="Logo Everis">
+			</aside>
+			<main class="app-main">
+				<breadcrumbs>
+					<breadcrumbs-icon class="material-icons">home</breadcrumbs-icon>
+					<breadcrumbs-namepage>Oportunidades</breadcrumbs-namepage>
+				</breadcrumbs>
+
+				<app-title>
+					<h1 class="app-title-h1">Oportunidades</h1>
+				</app-title>
+
+				<section class="box-card">
+					<section class="grid-card">
+						<everis-table>
+							<table class="grid">
+								<thead class="grid-thead">
+									<tr class="grid-thead-tr">
+										<th class="grid-thead-th grid-column--is-center grid-column--is-extrasmall">
+											<input type="checkbox" class="form-checkbox form-checkbox--is-center form-checkbox--is-th">
+										</th>
+										<th class="grid-thead-th ">Columna 2</th>
+										<th class="grid-thead-th ">Columna 3</th>
+										<th class="grid-thead-th ">Columna 3</th>
+										<th class="grid-thead-th ">Columna 3</th>
+										<th class="grid-thead-th ">Columna 3</th>
+										<th class="grid-thead-th ">Columna 3</th>
+
+										<th class="grid-thead-th grid-column--is-center grid-column--is-small">Acción</th>
+									</tr>
+								</thead>
+								<tbody class="grid-tbody">
+									<tr class="grid-tbody-tr">
+										<td class="grid-tbody-td grid-column--is-center">
+											<input type="checkbox" class="form-checkbox form-checkbox--is-center ">
+										</td>
+										<td class="grid-tbody-td ">Dato 2</td>
+										<td class="grid-tbody-td ">Dato 3</td>
+										<td class="grid-tbody-td ">Dato 3</td>
+										<td class="grid-tbody-td ">Dato 3</td>
+										<td class="grid-tbody-td ">Dato 3</td>
+										<td class="grid-tbody-td ">Dato 3</td>
+										
+										<td class="grid-tbody-td grid-column--is-center">
+
+											<everis-tooltip>
+												<i class="material-icons grid-icon grid-icon--is-more">more_horiz</i>
+												<everis-tooltip-content>
+													<i class="material-icons grid-icon">edit</i>
+													<i class="material-icons grid-icon">delete</i> 
+												</everis-tooltip-content>
+
+											</everis-tooltip>
+										</td>
+									</tr>
+									
+									
+								</tbody>
+							</table>
+						</everis-table>
+						<everis-paginator>
+							<everis-paginator-page>
+								Página <strong>1</strong> de <strong>20</strong>
+							</everis-paginator-page>
+
+							<everis-paginator-buttons>
+								<button class="button button-paginator button-paginator--is-active">1</button>
+								<button class="button button-paginator">2</button>
+								<button class="button button-paginator">3</button>
+								<button class="button button-paginator">4</button>		
+							</everis-paginator-buttons>
+							
+						</everis-paginator>
+					</section>
+				</section>
+			</main>
+		</app-content>
+	</main-page>
 </body>
 </html>

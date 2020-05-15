@@ -3,10 +3,6 @@
  * @author mfyance
  */
 
-.main-proyect{
-	font-family: Roboto
-}
-
 .profile{
 	background-color: #00B9EB;
 	max-width: 400px;
@@ -17,13 +13,14 @@
 	color: white;
 	display: inline-block;
 	margin-left: 20px;
+	font: 2rem var(--font-primary);
 }
 
 .profile-photo-img{
 	width: 54px;
 	height: 54px;
 	border-radius: 50%;
-	border: 2px solid #000;
+	border: 2px solid var(--color-primary);
 }
 
 .profile-photo{	

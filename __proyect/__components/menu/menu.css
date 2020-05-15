@@ -13,12 +13,6 @@
 
 
 
-.button{
-	padding: 15px;
-	border: 0;
-	background: none;
-}
-
 
 .button-primary:active{
 	transform: scale(0.95)
@@ -64,17 +58,18 @@
 	box-shadow: inset 15px 0 0 var(--color-primary);
 }
 .button-tab{
-	padding: 30px 25px;
+	padding: 15px 25px;
 	background: var(--color-menu);
 	color: white;
 	display: block;
 	width: 100%;
 	text-align: left;
-	font-size: 22px;
+	font: 2rem var(--font-primary);
 	border-bottom: 1px solid #232323;
 	box-shadow: inset 0px 1px 0 #777777;
 	position: relative;
-	transition: all .3s ease
+	transition: all .2s ease;
+	border: 0;
 }
 
 .menu-option-active .button-tab{
@@ -94,10 +89,9 @@ menu-option{
 .button-tab-content{
 
 }
-.button-tab-content-ul{	
-	background: #464D6F;		
-	padding: 10px;		
-	
+.button-tab-content-ul{
+	background: var(--color-bg-aside);
+	padding: 10px;
 }
 .button-tab-content-li{		
 	padding-left: 55px;
@@ -124,5 +118,5 @@ menu-option{
 	display: flex;
 	align-items: center;
 	color: #8B90A9;
-	font-size: 20px;
+	font: 1.6rem var(--font-secondary);
 }
